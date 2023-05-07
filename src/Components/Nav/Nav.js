@@ -3,12 +3,12 @@ import styles from "./Nav.module.css";
 
 function Nav() {
     return(
-        <div className={styles.nav}>
-            <ul>
-                <li >Cat 1</li>
-                <li>Cat 2</li>
-                <li>Cat 3</li>
-                <li>Cat 4</li>
+        <div>
+            <ul className={styles.nav}>
+                <li><a>Cat 1</a></li>
+                <li><a>Cat 2</a></li>
+                <li><a>Cat 3</a></li>
+                <li><a>Cat 4</a></li>
             </ul>
         </div>
     );

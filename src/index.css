@@ -1,8 +1,5 @@
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
+  margin: 10 auto;
   color: burlywood;
   background-color: rgba(0, 0, 0, 0.507);
   border: solid black 3px;

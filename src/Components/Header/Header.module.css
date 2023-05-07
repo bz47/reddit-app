@@ -1,5 +1,10 @@
 
 .header {
-    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.659);
     color:antiquewhite;
+    letter-spacing: 3px;
+    
 }
