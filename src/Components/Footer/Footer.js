@@ -5,7 +5,7 @@ function Footer() {
     return(
         <div>
             <button className={styles.btn}>Back</button>
-            <button className={styles.btn}>Forwardd</button>
+            <button className={styles.btn}>Forward</button>
         </div>
     );
 };

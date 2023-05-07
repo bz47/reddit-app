@@ -4,7 +4,7 @@ import styles from "./Header.module.css";
 function Header() {
     return(
         <div className={styles.header}>
-            <h1>Reddit Appp</h1>
+            <h1>Reddit App</h1>
         </div>
     );
 };
