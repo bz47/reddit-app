@@ -1,10 +1,11 @@
 import React from "react";
+import styles from "./Footer.module.css";
 
 function Footer() {
     return(
         <div>
-            <button>Back</button>
-            <button>Forward</button>
+            <button className={styles.btn}>Back</button>
+            <button className={styles.btn}>Forwardd</button>
         </div>
     );
 };

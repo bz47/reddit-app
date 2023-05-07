@@ -1,9 +1,10 @@
 import React from "react";
+import styles from "./Header.module.css";
 
 function Header() {
     return(
-        <div>
-            <h1>Reddit App</h1>
+        <div className={styles.header}>
+            <h1>Reddit Appp</h1>
         </div>
     );
 };
